@@ -1,0 +1,104 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long letter SCL Version
+% Version 1.0 (2024-08-08)
+
+% This template was revised by Yingjing Huang (huangyj96@outlook.com) based on Zheng-hu Nie(brian.nie@gmail.com).
+% This template originates from:
+% https://www.LaTeXTemplates.com
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS 文档基础配置
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage{charter} % Use the Charter font
+
+\usepackage[
+	a4paper, % Paper size
+	top=1in, % Top margin
+	bottom=1in, % Bottom margin
+	left=1in, % Left margin
+	right=1in, % Right margin
+	%showframe % Uncomment to show frames around the margins for debugging purposes
+]{geometry}
+
+\setlength{\parindent}{0pt} % Paragraph indentation
+\setlength{\parskip}{1em} % Vertical space between paragraphs
+
+\usepackage{graphicx} % Required for including images
+\usepackage{background}
+
+\backgroundsetup{
+  scale=1,   % 调整图片缩放比例
+  opacity=1,  % 透明度
+  angle=0,    % 旋转角度
+  contents={%
+    \includegraphics[width=\paperwidth,height=\paperheight]{logo.png}  % 图片路径
+  }
+}
+\pagestyle{empty}
+
+\newcommand{\journalname}{\textit{Journal Name}}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\vspace*{30pt} % Add extra vertical space before the date
+\hfill
+\begin{tabular}{l @{}}
+\hfill \today \bigskip\\ % Date
+\hfill Pizza Cat \\
+\hfill Email: xxx@nju.edu.cn \\
+\hfill 163 Xianlin Road, Qixia District,\\
+\hfill Nanjing, Jiangsu Province, 210023, China \\ % Address
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING
+%----------------------------------------------------------------------------------------
+
+\begin{tabular}{@{} l}
+	Professor\ Chandeller Bing \\
+	Editor-in-chief \\
+    \journalname
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+Dear Prof.\ Bing,
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+On behalf of all authors, I am delighted to submit this manuscript entitled “XXXXX XXXXX XXXXX XXXXX” to \journalname\ for consideration the possibility of its publication.
+
+We found that XXXXX XXXXXXX XXXXXXX XXXXX XXXXXXX XXXXXXXXXXXX XXXXXXX XXXXXXXXXXXX XXXXXXX XXXXXXXXXXXX XXXXXXX XXXXXXXXXXXX XXXXXXX XXXXXXXXXXXX XXXXXXX XXXXXXXXXXXX XXXXXXX XXXXXXXXXXXX XXXXXXX XXXXXXXXXXXX XXXXXXX XXXXXXX.
+ 
+Our research is of particular interest and uses to academics of xxxxx xxxxx, which comprise an important segment of your journal's readers. Furthermore, we believe that the findings match the aims and scope of your journal because they conclude an idea in xxxxxxxxxxxxxxxx xxxxxxxxx, which plays an important role in xxxxxx xxxxx xxxxxx. Moreover, we believe that our proposed xxxx model will help scholars to conduct more research.
+
+The manuscript described has not been submitted elsewhere for publication, in whole or in part. All authors have contributed to the creation of this manuscript for important intellectual content and approved the final manuscript. I have read and have abided by the statement of ethical standards for manuscripts submitted to \journalname.
+
+\bigskip % Vertical whitespace
+
+Sincerely yours,
+
+\vspace{20pt} % Vertical whitespace
+
+Pizza Cat Ph.D.\\
+Professor of Getting Fat\\
+School of Dorm Keeper, Nanjing University. China
+
+\end{document}
+
+% To PIZZA, a famous fat-ass cat who lived in Dorm 12.
